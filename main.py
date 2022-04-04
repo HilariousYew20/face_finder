@@ -4,7 +4,7 @@ import numpy as np
 from faces import faces
 
 # image path
-image1 = faces(path=r"C:/exapmle.png",
+image1 = faces(path=r"group-people-multi-ethnic-isolated-32199406.jpg",
                info=True)
 image1w, image1h, image1_color_channels = image1.image.shape
 
